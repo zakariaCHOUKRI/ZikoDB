@@ -1,4 +1,4 @@
-# GO KVStore
+# ZikoDB
 
 A persistent key-value store with an HTTP API, inspired by the LSM tree model, implemented in Go.
 
