@@ -70,6 +70,10 @@ func (api *KeyValueStoreAPI) SetHandler(w http.ResponseWriter, r *http.Request) 
 	// Update memtable
 	api.memtable.Set([]byte(key), []byte(value))
 
+	if api.memtable.data.Len() >= threshold {
+		flush(api.memtable)
+	}
+
 	// Remove from deleted table if exists
 	if api.memtable.IsDeleted([]byte(key)) {
 		api.memtable.deletedKeys.Remove([]byte(key))

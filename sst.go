@@ -15,6 +15,8 @@ import (
 const (
 	magicNumber = uint32(0x23102003)
 	version     = uint16(1)
+	threshold   = 500
+	interval    = time.Second * 1000
 )
 
 type SSTFile struct {
@@ -45,7 +47,7 @@ func flush(memtable *Memtable) {
 
 	if memtable.data.Len() > 0 || memtable.deletedKeys.Len() > 0 {
 
-		timestamp := time.Now().Format("20060102150405")
+		timestamp := time.Now().Format("20060102150405.000000000")
 
 		newSSTFile, err := NewSSTFile(fmt.Sprintf("data/sst/%s.sst", timestamp))
 		if err != nil {
@@ -62,21 +64,11 @@ func flush(memtable *Memtable) {
 }
 
 func periodicFlush(memtable *Memtable) {
-	interval := time.Second * 30
-	threshold := 2023
-
 	for {
 		select {
 		case <-time.After(interval):
 			flush(memtable)
-
-		case <-memtable.ShouldFlush(threshold):
-			flush(memtable)
 		}
-
-		// if memtable.data.Len() > threshold {
-		// 	flush(memtable)
-		// }
 	}
 }
 
