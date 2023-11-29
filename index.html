@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIKODB Interface</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="mb-4">ZIKODB Interface</h1>
+        <div class="row">
+            <!-- Left Column: GET Interface -->
+            <div class="col-md-4">
+                <form id="getForm" action="http://localhost:8080/get" method="get">
+                    <div class="form-group">
+                        <label for="getInput">Get Key:</label>
+                        <input type="text" class="form-control" id="getInput" name="key" placeholder="Enter key"
+                            required>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="sendGetRequest()">Get</button>
+                </form>
+                <!-- Placeholder for GET result -->
+                <div id="getResult" class="mt-3"></div>
+            </div>
+
+            <!-- Middle Column: SET Interface -->
+            <div class="col-md-4">
+                <form id="setForm" action="http://localhost:8080/set" method="post">
+                    <div class="form-group">
+                        <label for="keyInput">Set Key:</label>
+                        <input type="text" class="form-control" id="keyInput" name="key" placeholder="Enter key"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="valueInput">Set Value:</label>
+                        <input type="text" class="form-control" id="valueInput" name="value"
+                            placeholder="Enter value" required>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="sendSetRequest()">Set</button>
+                </form>
+                <!-- Placeholder for SET result -->
+                <div id="setResult" class="mt-3"></div>
+            </div>
+
+            <!-- Right Column: DELETE Interface -->
+            <div class="col-md-4">
+                <form id="delForm" action="http://localhost:8080/del" method="get">
+                    <div class="form-group">
+                        <label for="delInput">Delete Key:</label>
+                        <input type="text" class="form-control" id="delInput" name="key" placeholder="Enter key"
+                            required>
+                    </div>
+                    <button type="button" class="btn btn-danger" onclick="sendDelRequest()">Delete</button>
+                </form>
+                <!-- Placeholder for DELETE result -->
+                <div id="deleteResult" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function sendSetRequest() {
+            var key = document.getElementById('keyInput').value;
+            var value = document.getElementById('valueInput').value;
+    
+            if (key && value) {
+                fetch('http://localhost:8080/set', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        key: key,
+                        value: value,
+                    }),
+                })
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('setResult').innerText = data;
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            } else {
+                alert('Please enter both key and value for SET operation.');
+            }
+        }
+    
+        function sendGetRequest() {
+            var key = document.getElementById('getInput').value;
+    
+            if (key) {
+                fetch('http://localhost:8080/get?key=' + key, {
+                    method: 'GET',
+                })
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('getResult').innerText = data;
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            } else {
+                alert('Please enter a key for GET operation.');
+            }
+        }
+    
+        function sendDelRequest() {
+            var key = document.getElementById('delInput').value;
+    
+            if (key) {
+                fetch('http://localhost:8080/del?key=' + key, {
+                    method: 'DELETE',
+                })
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('deleteResult').innerText = data;
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            } else {
+                alert('Please enter a key for DELETE operation.');
+            }
+        }
+    </script>
+    
+</body>
+
+</html>

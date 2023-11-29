@@ -1,0 +1,11 @@
+1- wal backup functionality (wal just for recovery, only read from it when you start the program and the offset is not at the end)
+2- add checksum
+3- compact sst files
+4- tests tests tests
+
+
+in order to do 1-, i first need to implement the checkpoint mechanism
+
+add a feature such that we can delete any value we want (it doesnt have to be present already) (or not ?)
+
+look if there's a way to always flush before closing the program

@@ -28,7 +28,7 @@ Clone the repository:
 
 ```
 git clone https://github.com/zakariaCHOUKRI/ZikoDB.git
-cd go-kvstore
+cd ZikoDB
 ```
 
 ### Running the Application
@@ -36,7 +36,7 @@ cd go-kvstore
 Run the main application:
 
 ```
-go run cmd/ZikoDB/main.go
+go run .
 ```
 
 The server will start listening on http://localhost:8080.
