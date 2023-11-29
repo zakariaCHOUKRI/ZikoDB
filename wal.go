@@ -31,8 +31,8 @@ func NewWAL(filename string) (*WAL, error) {
 }
 
 func (w *WAL) Write(entry *WALEntry) error {
-	w.writeMutex.Lock()
-	defer w.writeMutex.Unlock()
+	// w.writeMutex.Lock()
+	// defer w.writeMutex.Unlock()
 
 	// Write entry to the end of the WAL file
 	if err := binary.Write(w.file, binary.BigEndian, entry.Action); err != nil {

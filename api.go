@@ -75,10 +75,6 @@ func (api *KeyValueStoreAPI) SetHandler(w http.ResponseWriter, r *http.Request) 
 		api.memtable.deletedKeys.Remove([]byte(key))
 	}
 
-	if api.memtable.data.Len() >= threshold {
-		flush(api.memtable)
-	}
-
 	// Respond to the client
 	w.Write([]byte("OK\n"))
 }
@@ -100,10 +96,6 @@ func (api *KeyValueStoreAPI) DeleteHandler(w http.ResponseWriter, r *http.Reques
 	if value == nil {
 		w.Write([]byte("Key not found\n"))
 		return
-	}
-
-	if api.memtable.deletedKeys.Len() >= threshold {
-		flush(api.memtable)
 	}
 
 	w.Write([]byte(fmt.Sprintf("Deleted Value: %s\n", value)))
@@ -217,7 +209,7 @@ func (api *KeyValueStoreAPI) searchForKeyInSSTFiles(key string, w http.ResponseW
 				}
 				fmt.Println("opType:", opType)
 
-				if string(opType) == "S" {
+				if opType == 'S' {
 					// Read the key length, key, value length, and value.
 					var keyLen, valueLen uint32
 					if err := binary.Read(reader, binary.BigEndian, &keyLen); err != nil {
@@ -262,7 +254,7 @@ func (api *KeyValueStoreAPI) searchForKeyInSSTFiles(key string, w http.ResponseW
 						notValue := string(notValueBytes)
 						fmt.Println("notValue:", notValue)
 					}
-				} else if string(opType) == "D" {
+				} else if opType == 'D' {
 					var keyLen uint32
 					if err := binary.Read(reader, binary.BigEndian, &keyLen); err != nil {
 						log.Printf("Error reading key length from SST file %s: %v\n", sstFilePath, err)

@@ -20,15 +20,19 @@ func NewMemtable() *Memtable {
 }
 
 func (m *Memtable) Set(key, value []byte) {
-	m.mu.Lock()
-	defer m.mu.Unlock()
+	// m.mu.Lock()
+	// defer m.mu.Unlock()
 
 	m.data.Set(key, value)
+
+	if m.data.Len() >= threshold {
+		flush(m)
+	}
 }
 
 func (m *Memtable) Get(key []byte) []byte {
-	m.mu.Lock()
-	defer m.mu.Unlock()
+	// m.mu.Lock()
+	// defer m.mu.Unlock()
 
 	value := m.data.Get(key)
 	if value != nil {
@@ -39,8 +43,8 @@ func (m *Memtable) Get(key []byte) []byte {
 }
 
 func (m *Memtable) Del(key []byte) []byte {
-	m.mu.Lock()
-	defer m.mu.Unlock()
+	// m.mu.Lock()
+	// defer m.mu.Unlock()
 
 	if value := m.data.Remove(key); value != nil {
 		return value.Value.([]byte)
@@ -50,15 +54,19 @@ func (m *Memtable) Del(key []byte) []byte {
 }
 
 func (m *Memtable) MarkDeleted(key []byte) {
-	m.mu.Lock()
-	defer m.mu.Unlock()
+	// m.mu.Lock()
+	// defer m.mu.Unlock()
 
 	m.deletedKeys.Set(key, make([]byte, 0))
+
+	if m.deletedKeys.Len() >= threshold {
+		flush(m)
+	}
 }
 
 func (m *Memtable) IsDeleted(key []byte) bool {
-	m.mu.RLock()
-	defer m.mu.RUnlock()
+	// m.mu.RLock()
+	// defer m.mu.RUnlock()
 
 	if m.deletedKeys.Get(key) == nil {
 		return m.deletedKeys.Get(key) == nil
@@ -71,8 +79,8 @@ func (m *Memtable) IsDeleted(key []byte) bool {
 }
 
 func (m *Memtable) Clear() {
-	m.mu.Lock()
-	defer m.mu.Unlock()
+	// m.mu.Lock()
+	// defer m.mu.Unlock()
 
 	// n := m.data.Len()
 	// for n > 0 {

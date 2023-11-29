@@ -15,8 +15,8 @@ import (
 const (
 	magicNumber = uint32(0x23102003)
 	version     = uint16(1)
-	threshold   = 20000
-	interval    = time.Second * 10
+	threshold   = 200
+	interval    = time.Second * 10000
 )
 
 type SSTFile struct {
@@ -73,8 +73,8 @@ func periodicFlush(memtable *Memtable) {
 }
 
 func (s *SSTFile) Write(memtable *Memtable) error {
-	s.writeMutex.Lock()
-	defer s.writeMutex.Unlock()
+	// s.writeMutex.Lock()
+	// defer s.writeMutex.Unlock()
 
 	if it := memtable.data.Front(); it != nil && memtable.data.Len() > 0 {
 		s.smallestKey = it.Key().([]byte)
@@ -145,7 +145,7 @@ func (s *SSTFile) Write(memtable *Memtable) error {
 		keySize := uint32(len(keyBytes))
 		valueSize := uint32(len(valueBytes))
 
-		if err := binary.Write(s.file, binary.BigEndian, []byte("S")); err != nil {
+		if err := binary.Write(s.file, binary.BigEndian, 'S'); err != nil {
 			return err
 		}
 		if err := binary.Write(s.file, binary.BigEndian, uint32(keySize)); err != nil {
@@ -168,7 +168,7 @@ func (s *SSTFile) Write(memtable *Memtable) error {
 		keyBytes := []byte(fmt.Sprintf("%s", it.Key()))
 		keySize := uint32(len(keyBytes))
 
-		if err := binary.Write(s.file, binary.BigEndian, []byte("D")); err != nil {
+		if err := binary.Write(s.file, binary.BigEndian, 'D'); err != nil {
 			return err
 		}
 		if err := binary.Write(s.file, binary.BigEndian, uint32(keySize)); err != nil {
