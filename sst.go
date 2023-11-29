@@ -15,8 +15,8 @@ import (
 const (
 	magicNumber = uint32(0x23102003)
 	version     = uint16(1)
-	threshold   = 500
-	interval    = time.Second * 1000
+	threshold   = 20000
+	interval    = time.Second * 10
 )
 
 type SSTFile struct {
@@ -87,6 +87,20 @@ func (s *SSTFile) Write(memtable *Memtable) error {
 	}
 
 	for it := memtable.data.Front(); it != nil; it = it.Next() {
+		currentKey := it.Key().([]byte)
+		keySize := uint32(len(fmt.Sprintf("%s", currentKey)))
+
+		if keySize < s.smallestKeyLen {
+			s.smallestKey = currentKey
+			s.smallestKeyLen = keySize
+		}
+		if keySize > s.largestKeyLen {
+			s.largestKey = currentKey
+			s.largestKeyLen = keySize
+		}
+	}
+
+	for it := memtable.deletedKeys.Front(); it != nil; it = it.Next() {
 		currentKey := it.Key().([]byte)
 		keySize := uint32(len(fmt.Sprintf("%s", currentKey)))
 

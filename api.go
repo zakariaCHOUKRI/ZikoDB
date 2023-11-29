@@ -70,13 +70,13 @@ func (api *KeyValueStoreAPI) SetHandler(w http.ResponseWriter, r *http.Request) 
 	// Update memtable
 	api.memtable.Set([]byte(key), []byte(value))
 
-	if api.memtable.data.Len() >= threshold {
-		flush(api.memtable)
-	}
-
 	// Remove from deleted table if exists
 	if api.memtable.IsDeleted([]byte(key)) {
 		api.memtable.deletedKeys.Remove([]byte(key))
+	}
+
+	if api.memtable.data.Len() >= threshold {
+		flush(api.memtable)
 	}
 
 	// Respond to the client
@@ -86,6 +86,14 @@ func (api *KeyValueStoreAPI) SetHandler(w http.ResponseWriter, r *http.Request) 
 func (api *KeyValueStoreAPI) DeleteHandler(w http.ResponseWriter, r *http.Request) {
 	key := r.URL.Query().Get("key")
 
+	walEntry := &WALEntry{
+		Action: 'D',
+		Key:    []byte(fmt.Sprintf("%s", key)),
+		Value:  []byte(fmt.Sprintf("%s", "")),
+	}
+
+	api.wal.Write(walEntry)
+
 	value := api.memtable.Del([]byte(key))
 	api.memtable.MarkDeleted([]byte(key))
 
@@ -94,12 +102,9 @@ func (api *KeyValueStoreAPI) DeleteHandler(w http.ResponseWriter, r *http.Reques
 		return
 	}
 
-	walEntry := &WALEntry{
-		Action: 'D',
-		Key:    []byte(fmt.Sprintf("%s", key)),
-		Value:  []byte(fmt.Sprintf("%s", value)),
+	if api.memtable.deletedKeys.Len() >= threshold {
+		flush(api.memtable)
 	}
-	api.wal.Write(walEntry)
 
 	w.Write([]byte(fmt.Sprintf("Deleted Value: %s\n", value)))
 }
@@ -114,6 +119,12 @@ func StartAPI(memtable *Memtable, wal *WAL) {
 	port := 8080
 	fmt.Printf("Listening on port %d...\n", port)
 	http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
+}
+
+type SSTEntry struct {
+	OpType byte
+	Key    string
+	Value  string
 }
 
 func (api *KeyValueStoreAPI) searchForKeyInSSTFiles(key string, w http.ResponseWriter) {

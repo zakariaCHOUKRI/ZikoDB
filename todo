@@ -1,5 +1,4 @@
 1- wal backup functionality (wal just for recovery, only read from it when you start the program and the offset is not at the end)
-2- add checksum
 3- compact sst files
 4- tests tests tests
 

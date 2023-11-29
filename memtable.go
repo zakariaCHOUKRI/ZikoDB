@@ -2,7 +2,6 @@ package main
 
 import (
 	"sync"
-	"time"
 
 	"github.com/huandu/skiplist"
 )
@@ -61,19 +60,14 @@ func (m *Memtable) IsDeleted(key []byte) bool {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
 
-	return (m.deletedKeys.Get(key) != nil ||
-		(m.data.Get(key) == nil && m.deletedKeys.Get(key) == nil))
-}
-
-func (m *Memtable) ShouldFlush(threshold int) <-chan time.Time {
-	m.mu.RLock()
-	defer m.mu.RUnlock()
-
-	if m.data.Len() > threshold {
-		return time.After(0)
+	if m.deletedKeys.Get(key) == nil {
+		return m.deletedKeys.Get(key) == nil
+	} else {
+		return true
 	}
 
-	return nil
+	// return (m.deletedKeys.Get(key) != nil ||
+	// 	(m.data.Get(key) == nil && m.deletedKeys.Get(key) == nil))
 }
 
 func (m *Memtable) Clear() {
