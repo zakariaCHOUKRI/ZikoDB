@@ -61,6 +61,15 @@ If you wish to modify the values for the set/del/get commands, you can do so in 
 
 The test results will be displayed both in the terminal and through the HTTP interface. For individual command testing without rewriting them, you can utilize the user interface accessible through http://localhost:8080.
 
+To test the flush to WAL functionality, you can use the pre-made files and follow these steps:
+
+1. Change the `interval` to a relatively large value (e.g., 10 minutes).
+2. Set the `threshold` to 600.
+
+Launch the set_commands.txt file, which contains 1000 commands. With the configured parameters, 600 commands will be flushed, and 400 will not. After executing the commands, exit the application, then restart it. You should observe that the WAL has been flushed.
+
+You can further verify this by testing with the get_commands.txt file.
+
 
 ## HTTP Endpoints
 
