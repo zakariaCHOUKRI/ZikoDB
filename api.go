@@ -128,7 +128,13 @@ type SSTEntry struct {
 // Search for given key in sst files, my sst files are designed
 // In a way that makes all set entries come before all del entries.
 // So we basically iterate backwards through the sst files and
-// forward inside each sst file.
+// Forward inside each sst file. We read entries following our
+// Design, and if a key matches in a set entry, we store its value.
+// If we encounter a del entry, we immediately return that there is
+// No such key. This is guaranteed due to the way I implemented the
+// Del functionality. Otherwise, if the key is not found in this file
+// We look in the next one until we either find something (del or set)
+// Or until we finish looking through all the files (key never existed)
 func (api *KeyValueStoreAPI) searchForKeyInSSTFiles(key string, w http.ResponseWriter) {
 	sstFiles, err := os.ReadDir("data/sst/")
 	if err != nil {

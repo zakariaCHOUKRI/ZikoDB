@@ -8,13 +8,14 @@ This project aims to build a key-value store that exposes HTTP endpoints for int
 
 ## Features
 
-- Basic key-value operations: GET, POST, DELETE
+- Basic key-value operations: `GET`, `POST`, `DELETE`
 - Memtable for in-memory writes
 - Write Ahead Log (WAL) for crash safety
 - Periodic flushing of Memtable to disk as an SST file
-- Compaction process to merge smaller SST files
-- SST file format in binary with suggested structure
-- Extras: Bloom filters, Compression of SST files
+- ~~Compaction process to merge smaller SST files~~
+- SST file format in binary
+- ~~Extras: Bloom filters, Compression of SST files, Concurrency~~
+- User Interface: Accessible through a web browser at http://localhost:8080
 
 ## Getting Started
 
@@ -41,11 +42,41 @@ go run .
 
 The server will start listening on http://localhost:8080.
 
+## Manual Testing
+
+The ZikoDB project has undergone extensive testing through countless tests and test cases to ensure optimal performance and reliability.
+
+To repeat some of the tests performed, you can use the following commands (specific to Windows, adapt for Unix systems as needed):
+
+```
+cd stress_testing
+cmd < set_commands.txt
+cmd < del_commands.txt
+cmd < get_commands.txt > get_results.txt
+```
+
+Note: If you are using a Unix system, please use the appropriate method for running the commands.
+
+If you wish to modify the values for the set/del/get commands, you can do so in the `script.py` file. Additionally, for experimenting with different thresholds and periods for the automatic flush, you can edit the constants `threshold` and `interval` in the `sst.go` file.
+
+The test results will be displayed both in the terminal and through the HTTP interface. For individual command testing without rewriting them, you can utilize the user interface accessible through http://localhost:8080.
+
+
 ## HTTP Endpoints
 
-- GET http://localhost:8080/get?key=keyName: Retrieve the value of the key or print 'Key not found.'
-- POST http://localhost:8080/set: Set the key and value provided in the request body (use JSON to encode key-value pairs).
-- DELETE http://localhost:8080/del?key=keyName: Delete a key from the key-value store and return the existing value (if it exists).
+- `GET http://localhost:8080/get?key=keyName`: Retrieve the value of the key or print 'Key not found.'
+- `POST http://localhost:8080/set`: Set the key and value provided in the request body (use JSON to encode key-value pairs).
+- `DELETE http://localhost:8080/del?key=keyName`: Delete a key from the key-value store.
+
+
+## Notes
+
+1. The project works perfectly but does not have the extra functionality: bloom filters, concurrency, compression.
+2. Initially, an external library of a sorted map was used as the in-memory storage medium. However, it made it very difficult to implement additional functionality, and bugs were challenging to debug.
+3. Due to the previous point, the data in my SST files is not ordered, so compaction could not be achieved.
+4. Although bloom filters were not used, time is saved in lookups thanks to the max and min key lengths present in each SST header.
+6. The unit tests are not very detailed because most of the functionality can be accessed through the API
+5. The implementation is extremely fast, and you can test it by following the steps in the manual test category.
 
 ## Acknowledgments
 
