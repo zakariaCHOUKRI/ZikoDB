@@ -1,75 +1,52 @@
 package main
 
-import (
-	"sync"
-
-	"github.com/huandu/skiplist"
-)
-
 type Memtable struct {
-	data        *skiplist.SkipList
-	mu          sync.RWMutex
-	deletedKeys *skiplist.SkipList
+	data        map[string][]byte
+	deletedKeys map[string][]byte
 }
 
 func NewMemtable() *Memtable {
 	return &Memtable{
-		data:        skiplist.New(skiplist.Bytes),
-		deletedKeys: skiplist.New(skiplist.Bytes),
+		data:        make(map[string][]byte),
+		deletedKeys: make(map[string][]byte),
 	}
 }
 
-func (m *Memtable) Set(key, value []byte) {
-	// m.mu.Lock()
-	// defer m.mu.Unlock()
+func (m *Memtable) Set(key string, value []byte) {
 
-	m.data.Set(key, value)
+	m.data[key] = value
 
-	if m.data.Len() >= threshold {
+	if len(m.data) >= threshold {
 		flush(m)
 	}
 }
 
-func (m *Memtable) Get(key []byte) []byte {
-	// m.mu.Lock()
-	// defer m.mu.Unlock()
+func (m *Memtable) Get(key string) []byte {
 
-	value := m.data.Get(key)
-	if value != nil {
-		return value.Value.([]byte)
-	} else {
-		return nil
-	}
+	return m.data[key]
 }
 
-func (m *Memtable) Del(key []byte) []byte {
-	// m.mu.Lock()
-	// defer m.mu.Unlock()
+func (m *Memtable) Del(key string) []byte {
 
-	if value := m.data.Remove(key); value != nil {
-		return value.Value.([]byte)
-	} else {
-		return nil
-	}
+	value := m.data[key]
+	delete(m.data, key)
+	return value
 }
 
-func (m *Memtable) MarkDeleted(key []byte) {
-	// m.mu.Lock()
-	// defer m.mu.Unlock()
+// Add a key to the deleted table
+func (m *Memtable) MarkDeleted(key string) {
 
-	m.deletedKeys.Set(key, make([]byte, 0))
+	m.deletedKeys[key] = []byte("Z")
 
-	if m.deletedKeys.Len() >= threshold {
+	if len(m.deletedKeys) >= threshold {
 		flush(m)
 	}
 }
 
-func (m *Memtable) IsDeleted(key []byte) bool {
-	// m.mu.RLock()
-	// defer m.mu.RUnlock()
+func (m *Memtable) IsDeleted(key string) bool {
 
-	if m.deletedKeys.Get(key) == nil {
-		return m.deletedKeys.Get(key) == nil
+	if m.deletedKeys[key] == nil {
+		return m.data[key] == nil
 	} else {
 		return true
 	}
@@ -78,16 +55,15 @@ func (m *Memtable) IsDeleted(key []byte) bool {
 	// 	(m.data.Get(key) == nil && m.deletedKeys.Get(key) == nil))
 }
 
+// Clear the memtable data and the deleted table
 func (m *Memtable) Clear() {
-	// m.mu.Lock()
-	// defer m.mu.Unlock()
 
 	// n := m.data.Len()
 	// for n > 0 {
 	// 	m.data.RemoveFront()
 	// }
 
-	m.data = skiplist.New(skiplist.Bytes)
-	m.deletedKeys = skiplist.New(skiplist.Byte)
+	m.data = make(map[string][]byte)
+	m.deletedKeys = make(map[string][]byte)
 
 }

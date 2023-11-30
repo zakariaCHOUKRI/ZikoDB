@@ -8,15 +8,14 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"sync"
 	"time"
 )
 
 const (
 	magicNumber = uint32(0x23102003)
 	version     = uint16(1)
-	threshold   = 200
-	interval    = time.Second * 10000
+	threshold   = 500
+	interval    = time.Second * 60
 )
 
 type SSTFile struct {
@@ -28,7 +27,6 @@ type SSTFile struct {
 	largestKey     []byte
 	version        uint16
 	checksum       uint32
-	writeMutex     sync.Mutex
 }
 
 func NewSSTFile(filename string) (*SSTFile, error) {
@@ -43,9 +41,10 @@ func NewSSTFile(filename string) (*SSTFile, error) {
 	}, nil
 }
 
+// Flush the contents of memtable to disk
 func flush(memtable *Memtable) {
 
-	if memtable.data.Len() > 0 || memtable.deletedKeys.Len() > 0 {
+	if len(memtable.data) > 0 || len(memtable.deletedKeys) > 0 {
 
 		timestamp := time.Now().Format("20060102150405.000000000")
 
@@ -63,6 +62,7 @@ func flush(memtable *Memtable) {
 	}
 }
 
+// Periodically flush memtable to disk
 func periodicFlush(memtable *Memtable) {
 	for {
 		select {
@@ -72,49 +72,51 @@ func periodicFlush(memtable *Memtable) {
 	}
 }
 
+// Write the contents of the sst file to disk
 func (s *SSTFile) Write(memtable *Memtable) error {
-	// s.writeMutex.Lock()
-	// defer s.writeMutex.Unlock()
 
-	if it := memtable.data.Front(); it != nil && memtable.data.Len() > 0 {
-		s.smallestKey = it.Key().([]byte)
-		s.largestKey = it.Key().([]byte)
-		keySize := uint32(len(fmt.Sprintf("%s", s.smallestKey)))
+	// Get the max and min of key lengths in order to easily
+	// Determine whether a key is present in a sst file just
+	// By using its length
+	for k := range memtable.data {
+		s.smallestKey = []byte(k)
+		s.largestKey = []byte(k)
+
+		keySize := uint32(len(k))
 		s.smallestKeyLen = keySize
 		s.largestKeyLen = keySize
-	} else {
-		// handle this if and only if we change the deletion implementation
+
+		break
 	}
 
-	for it := memtable.data.Front(); it != nil; it = it.Next() {
-		currentKey := it.Key().([]byte)
-		keySize := uint32(len(fmt.Sprintf("%s", currentKey)))
+	for k := range memtable.data {
+		keySize := uint32(len(k))
 
-		if keySize < s.smallestKeyLen {
-			s.smallestKey = currentKey
+		if keySize <= s.smallestKeyLen {
+			s.smallestKey = []byte(k)
 			s.smallestKeyLen = keySize
 		}
-		if keySize > s.largestKeyLen {
-			s.largestKey = currentKey
+		if keySize >= s.largestKeyLen {
+			s.largestKey = []byte(k)
 			s.largestKeyLen = keySize
 		}
 	}
 
-	for it := memtable.deletedKeys.Front(); it != nil; it = it.Next() {
-		currentKey := it.Key().([]byte)
-		keySize := uint32(len(fmt.Sprintf("%s", currentKey)))
+	for k := range memtable.deletedKeys {
+		keySize := uint32(len(k))
 
-		if keySize < s.smallestKeyLen {
-			s.smallestKey = currentKey
+		if keySize <= s.smallestKeyLen {
+			s.smallestKey = []byte(k)
 			s.smallestKeyLen = keySize
 		}
-		if keySize > s.largestKeyLen {
-			s.largestKey = currentKey
+		if keySize >= s.largestKeyLen {
+			s.largestKey = []byte(k)
 			s.largestKeyLen = keySize
 		}
 	}
 
-	s.entryCount = uint32(memtable.data.Len()) + uint32(memtable.deletedKeys.Len())
+	// Get header elements and write them to sst file
+	s.entryCount = uint32(len(memtable.data) + len(memtable.deletedKeys))
 
 	if err := binary.Write(s.file, binary.BigEndian, uint32(magicNumber)); err != nil {
 		return err
@@ -138,14 +140,15 @@ func (s *SSTFile) Write(memtable *Memtable) error {
 		return err
 	}
 
-	for it := memtable.data.Front(); it != nil; it = it.Next() {
-		keyBytes := []byte(fmt.Sprintf("%s", it.Key()))
-		valueBytes := []byte(fmt.Sprintf("%s", it.Value))
+	// Write set entries to sst file
+	for k, v := range memtable.data {
+		keyBytes := []byte(k)
+		valueBytes := []byte(v)
 
 		keySize := uint32(len(keyBytes))
 		valueSize := uint32(len(valueBytes))
 
-		if err := binary.Write(s.file, binary.BigEndian, 'S'); err != nil {
+		if err := binary.Write(s.file, binary.BigEndian, []byte("S")); err != nil {
 			return err
 		}
 		if err := binary.Write(s.file, binary.BigEndian, uint32(keySize)); err != nil {
@@ -161,14 +164,16 @@ func (s *SSTFile) Write(memtable *Memtable) error {
 			return err
 		}
 
-		fmt.Println("written key", string(keyBytes))
+		// fmt.Println("written key", string(keyBytes))
 	}
 
-	for it := memtable.deletedKeys.Front(); it != nil; it = it.Next() {
-		keyBytes := []byte(fmt.Sprintf("%s", it.Key()))
+	// Write del entries to sst file
+	for k := range memtable.deletedKeys {
+		keyBytes := []byte(k)
+
 		keySize := uint32(len(keyBytes))
 
-		if err := binary.Write(s.file, binary.BigEndian, 'D'); err != nil {
+		if err := binary.Write(s.file, binary.BigEndian, []byte("D")); err != nil {
 			return err
 		}
 		if err := binary.Write(s.file, binary.BigEndian, uint32(keySize)); err != nil {
@@ -178,7 +183,7 @@ func (s *SSTFile) Write(memtable *Memtable) error {
 			return err
 		}
 
-		fmt.Println("deleted key", string(keyBytes))
+		// fmt.Println("deleted key", string(keyBytes))
 	}
 
 	existingData, err := s.fileBytesForChecksum()
@@ -187,25 +192,26 @@ func (s *SSTFile) Write(memtable *Memtable) error {
 	}
 
 	// Calculate CRC32 checksum of the existing data
+	// And include it in the file
 	checksum := crc32.ChecksumIEEE(existingData)
-
-	// Include the checksum in the file
 	if err := binary.Write(s.file, binary.BigEndian, checksum); err != nil {
 		return err
 	}
 
+	clearWAL("data/wal/wal")
+
+	fmt.Println("Data flushed to ", s.file.Name())
 	return nil
 }
 
+// Get the file bytes up until where the checksum should be
 func (s *SSTFile) fileBytesForChecksum() ([]byte, error) {
-	// Open the SST file for reading
 	file, err := os.Open(s.file.Name())
 	if err != nil {
 		return nil, err
 	}
 	defer file.Close()
 
-	// Read the existing data from the file
 	data, err := io.ReadAll(file)
 	if err != nil {
 		return nil, err
@@ -214,6 +220,8 @@ func (s *SSTFile) fileBytesForChecksum() ([]byte, error) {
 	return data, nil
 }
 
+// Iterate through all sst files and check
+// If they are valid using their checksums
 func integrityCheck() {
 	sstFiles, err := os.ReadDir("data/sst/")
 	if err != nil {
@@ -258,14 +266,12 @@ func calculateChecksum(file *os.File) (uint32, error) {
 		return 0, err
 	}
 
-	// Exclude the last 4 bytes (checksum) when calculating checksum
 	dataWithoutChecksum := data[:len(data)-4]
 
 	return crc32.ChecksumIEEE(dataWithoutChecksum), nil
 }
 
 func readStoredChecksum(file *os.File) (uint32, error) {
-	// Seek to the position where checksum is stored (end of file - 4 bytes)
 	_, err := file.Seek(-4, io.SeekEnd)
 	if err != nil {
 		return 0, err

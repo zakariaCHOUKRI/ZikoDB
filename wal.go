@@ -2,9 +2,9 @@ package main
 
 import (
 	"encoding/binary"
+	"fmt"
 	"log"
 	"os"
-	"sync"
 )
 
 type WALEntry struct {
@@ -14,8 +14,7 @@ type WALEntry struct {
 }
 
 type WAL struct {
-	file       *os.File
-	writeMutex sync.Mutex
+	file *os.File
 }
 
 func NewWAL(filename string) (*WAL, error) {
@@ -30,11 +29,9 @@ func NewWAL(filename string) (*WAL, error) {
 	}, nil
 }
 
+// Write data to the wal file
 func (w *WAL) Write(entry *WALEntry) error {
-	// w.writeMutex.Lock()
-	// defer w.writeMutex.Unlock()
 
-	// Write entry to the end of the WAL file
 	if err := binary.Write(w.file, binary.BigEndian, entry.Action); err != nil {
 		log.Printf("Error writing WAL entry: %v\n", err)
 		return err
@@ -59,6 +56,81 @@ func (w *WAL) Write(entry *WALEntry) error {
 	}
 
 	return nil
+}
+
+// Read the entries from the wal file
+func ReadWAL(filename string) ([]WALEntry, error) {
+	file, err := os.OpenFile(filename, os.O_RDONLY, 0644)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	var entries []WALEntry
+
+	for {
+		var op byte
+		if err := binary.Read(file, binary.BigEndian, &op); err != nil {
+			break // End of file
+		}
+
+		var keyLength uint32
+		binary.Read(file, binary.BigEndian, &keyLength)
+
+		key := make([]byte, keyLength)
+		binary.Read(file, binary.BigEndian, key)
+
+		var valueLength uint32
+		binary.Read(file, binary.BigEndian, &valueLength)
+
+		value := make([]byte, valueLength)
+		binary.Read(file, binary.BigEndian, value)
+
+		entry := WALEntry{
+			Action: op,
+			Key:    key,
+			Value:  value,
+		}
+		entries = append(entries, entry)
+	}
+
+	clearWAL(filename)
+
+	return entries, nil
+}
+
+// Flush the wal into memory and then into disk
+func (wal *WAL) flushWAL(memtable *Memtable) {
+	entries, err := ReadWAL(wal.file.Name())
+	if err != nil {
+		fmt.Println("Error reading WAL:", err)
+		return
+	}
+
+	if len(entries) == 0 {
+		fmt.Println("WAL is empty.")
+	} else {
+		fmt.Println("Reconstructing WAL entries...")
+		for _, entry := range entries {
+			if entry.Action == 'S' {
+				memtable.Set(string(entry.Key), entry.Value)
+
+				// Remove from deleted table if exists
+				if memtable.IsDeleted(string(entry.Key)) {
+					delete(memtable.deletedKeys, string(entry.Key))
+				}
+			} else if entry.Action == 'D' {
+				memtable.Del(string(entry.Key))
+				memtable.MarkDeleted(string(entry.Key))
+			}
+		}
+		flush(memtable)
+	}
+}
+
+func clearWAL(filename string) error {
+	err := os.Truncate(filename, 0)
+	return err
 }
 
 func (w *WAL) Close() error {

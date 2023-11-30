@@ -1,0 +1,3004 @@
+Microsoft Windows [Version 10.0.19045.3693]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=0
+Value: 0
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=1
+Value: 1
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=2
+Value: 2
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=3
+Value: 3
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=4
+Value: 4
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=5
+Value: 5
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=6
+Value: 6
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=7
+Value: 7
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=8
+Value: 8
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=9
+Value: 9
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=10
+Value: 10
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=11
+Value: 11
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=12
+Value: 12
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=13
+Value: 13
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=14
+Value: 14
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=15
+Value: 15
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=16
+Value: 16
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=17
+Value: 17
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=18
+Value: 18
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=19
+Value: 19
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=20
+Value: 20
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=21
+Value: 21
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=22
+Value: 22
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=23
+Value: 23
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=24
+Value: 24
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=25
+Value: 25
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=26
+Value: 26
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=27
+Value: 27
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=28
+Value: 28
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=29
+Value: 29
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=30
+Value: 30
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=31
+Value: 31
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=32
+Value: 32
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=33
+Value: 33
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=34
+Value: 34
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=35
+Value: 35
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=36
+Value: 36
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=37
+Value: 37
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=38
+Value: 38
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=39
+Value: 39
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=40
+Value: 40
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=41
+Value: 41
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=42
+Value: 42
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=43
+Value: 43
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=44
+Value: 44
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=45
+Value: 45
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=46
+Value: 46
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=47
+Value: 47
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=48
+Value: 48
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=49
+Value: 49
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=50
+Value: 50
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=51
+Value: 51
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=52
+Value: 52
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=53
+Value: 53
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=54
+Value: 54
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=55
+Value: 55
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=56
+Value: 56
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=57
+Value: 57
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=58
+Value: 58
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=59
+Value: 59
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=60
+Value: 60
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=61
+Value: 61
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=62
+Value: 62
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=63
+Value: 63
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=64
+Value: 64
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=65
+Value: 65
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=66
+Value: 66
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=67
+Value: 67
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=68
+Value: 68
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=69
+Value: 69
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=70
+Value: 70
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=71
+Value: 71
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=72
+Value: 72
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=73
+Value: 73
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=74
+Value: 74
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=75
+Value: 75
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=76
+Value: 76
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=77
+Value: 77
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=78
+Value: 78
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=79
+Value: 79
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=80
+Value: 80
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=81
+Value: 81
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=82
+Value: 82
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=83
+Value: 83
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=84
+Value: 84
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=85
+Value: 85
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=86
+Value: 86
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=87
+Value: 87
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=88
+Value: 88
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=89
+Value: 89
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=90
+Value: 90
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=91
+Value: 91
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=92
+Value: 92
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=93
+Value: 93
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=94
+Value: 94
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=95
+Value: 95
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=96
+Value: 96
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=97
+Value: 97
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=98
+Value: 98
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=99
+Value: 99
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=100
+Value: 100
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=101
+Value: 101
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=102
+Value: 102
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=103
+Value: 103
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=104
+Value: 104
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=105
+Value: 105
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=106
+Value: 106
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=107
+Value: 107
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=108
+Value: 108
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=109
+Value: 109
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=110
+Value: 110
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=111
+Value: 111
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=112
+Value: 112
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=113
+Value: 113
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=114
+Value: 114
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=115
+Value: 115
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=116
+Value: 116
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=117
+Value: 117
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=118
+Value: 118
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=119
+Value: 119
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=120
+Value: 120
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=121
+Value: 121
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=122
+Value: 122
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=123
+Value: 123
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=124
+Value: 124
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=125
+Value: 125
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=126
+Value: 126
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=127
+Value: 127
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=128
+Value: 128
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=129
+Value: 129
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=130
+Value: 130
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=131
+Value: 131
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=132
+Value: 132
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=133
+Value: 133
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=134
+Value: 134
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=135
+Value: 135
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=136
+Value: 136
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=137
+Value: 137
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=138
+Value: 138
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=139
+Value: 139
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=140
+Value: 140
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=141
+Value: 141
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=142
+Value: 142
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=143
+Value: 143
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=144
+Value: 144
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=145
+Value: 145
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=146
+Value: 146
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=147
+Value: 147
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=148
+Value: 148
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=149
+Value: 149
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=150
+Value: 150
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=151
+Value: 151
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=152
+Value: 152
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=153
+Value: 153
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=154
+Value: 154
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=155
+Value: 155
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=156
+Value: 156
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=157
+Value: 157
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=158
+Value: 158
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=159
+Value: 159
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=160
+Value: 160
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=161
+Value: 161
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=162
+Value: 162
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=163
+Value: 163
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=164
+Value: 164
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=165
+Value: 165
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=166
+Value: 166
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=167
+Value: 167
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=168
+Value: 168
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=169
+Value: 169
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=170
+Value: 170
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=171
+Value: 171
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=172
+Value: 172
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=173
+Value: 173
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=174
+Value: 174
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=175
+Value: 175
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=176
+Value: 176
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=177
+Value: 177
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=178
+Value: 178
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=179
+Value: 179
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=180
+Value: 180
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=181
+Value: 181
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=182
+Value: 182
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=183
+Value: 183
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=184
+Value: 184
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=185
+Value: 185
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=186
+Value: 186
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=187
+Value: 187
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=188
+Value: 188
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=189
+Value: 189
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=190
+Value: 190
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=191
+Value: 191
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=192
+Value: 192
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=193
+Value: 193
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=194
+Value: 194
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=195
+Value: 195
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=196
+Value: 196
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=197
+Value: 197
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=198
+Value: 198
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=199
+Value: 199
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=200
+Value: 200
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=201
+Value: 201
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=202
+Value: 202
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=203
+Value: 203
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=204
+Value: 204
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=205
+Value: 205
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=206
+Value: 206
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=207
+Value: 207
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=208
+Value: 208
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=209
+Value: 209
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=210
+Value: 210
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=211
+Value: 211
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=212
+Value: 212
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=213
+Value: 213
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=214
+Value: 214
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=215
+Value: 215
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=216
+Value: 216
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=217
+Value: 217
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=218
+Value: 218
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=219
+Value: 219
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=220
+Value: 220
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=221
+Value: 221
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=222
+Value: 222
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=223
+Value: 223
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=224
+Value: 224
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=225
+Value: 225
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=226
+Value: 226
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=227
+Value: 227
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=228
+Value: 228
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=229
+Value: 229
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=230
+Value: 230
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=231
+Value: 231
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=232
+Value: 232
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=233
+Value: 233
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=234
+Value: 234
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=235
+Value: 235
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=236
+Value: 236
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=237
+Value: 237
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=238
+Value: 238
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=239
+Value: 239
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=240
+Value: 240
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=241
+Value: 241
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=242
+Value: 242
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=243
+Value: 243
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=244
+Value: 244
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=245
+Value: 245
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=246
+Value: 246
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=247
+Value: 247
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=248
+Value: 248
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=249
+Value: 249
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=250
+Value: 250
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=251
+Value: 251
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=252
+Value: 252
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=253
+Value: 253
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=254
+Value: 254
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=255
+Value: 255
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=256
+Value: 256
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=257
+Value: 257
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=258
+Value: 258
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=259
+Value: 259
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=260
+Value: 260
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=261
+Value: 261
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=262
+Value: 262
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=263
+Value: 263
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=264
+Value: 264
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=265
+Value: 265
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=266
+Value: 266
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=267
+Value: 267
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=268
+Value: 268
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=269
+Value: 269
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=270
+Value: 270
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=271
+Value: 271
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=272
+Value: 272
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=273
+Value: 273
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=274
+Value: 274
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=275
+Value: 275
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=276
+Value: 276
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=277
+Value: 277
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=278
+Value: 278
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=279
+Value: 279
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=280
+Value: 280
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=281
+Value: 281
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=282
+Value: 282
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=283
+Value: 283
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=284
+Value: 284
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=285
+Value: 285
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=286
+Value: 286
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=287
+Value: 287
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=288
+Value: 288
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=289
+Value: 289
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=290
+Value: 290
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=291
+Value: 291
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=292
+Value: 292
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=293
+Value: 293
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=294
+Value: 294
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=295
+Value: 295
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=296
+Value: 296
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=297
+Value: 297
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=298
+Value: 298
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=299
+Value: 299
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=300
+Value: 300
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=301
+Value: 301
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=302
+Value: 302
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=303
+Value: 303
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=304
+Value: 304
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=305
+Value: 305
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=306
+Value: 306
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=307
+Value: 307
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=308
+Value: 308
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=309
+Value: 309
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=310
+Value: 310
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=311
+Value: 311
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=312
+Value: 312
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=313
+Value: 313
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=314
+Value: 314
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=315
+Value: 315
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=316
+Value: 316
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=317
+Value: 317
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=318
+Value: 318
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=319
+Value: 319
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=320
+Value: 320
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=321
+Value: 321
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=322
+Value: 322
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=323
+Value: 323
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=324
+Value: 324
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=325
+Value: 325
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=326
+Value: 326
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=327
+Value: 327
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=328
+Value: 328
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=329
+Value: 329
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=330
+Value: 330
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=331
+Value: 331
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=332
+Value: 332
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=333
+Value: 333
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=334
+Value: 334
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=335
+Value: 335
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=336
+Value: 336
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=337
+Value: 337
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=338
+Value: 338
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=339
+Value: 339
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=340
+Value: 340
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=341
+Value: 341
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=342
+Value: 342
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=343
+Value: 343
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=344
+Value: 344
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=345
+Value: 345
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=346
+Value: 346
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=347
+Value: 347
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=348
+Value: 348
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=349
+Value: 349
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=350
+Value: 350
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=351
+Value: 351
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=352
+Value: 352
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=353
+Value: 353
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=354
+Value: 354
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=355
+Value: 355
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=356
+Value: 356
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=357
+Value: 357
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=358
+Value: 358
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=359
+Value: 359
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=360
+Value: 360
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=361
+Value: 361
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=362
+Value: 362
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=363
+Value: 363
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=364
+Value: 364
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=365
+Value: 365
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=366
+Value: 366
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=367
+Value: 367
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=368
+Value: 368
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=369
+Value: 369
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=370
+Value: 370
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=371
+Value: 371
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=372
+Value: 372
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=373
+Value: 373
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=374
+Value: 374
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=375
+Value: 375
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=376
+Value: 376
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=377
+Value: 377
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=378
+Value: 378
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=379
+Value: 379
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=380
+Value: 380
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=381
+Value: 381
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=382
+Value: 382
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=383
+Value: 383
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=384
+Value: 384
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=385
+Value: 385
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=386
+Value: 386
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=387
+Value: 387
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=388
+Value: 388
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=389
+Value: 389
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=390
+Value: 390
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=391
+Value: 391
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=392
+Value: 392
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=393
+Value: 393
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=394
+Value: 394
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=395
+Value: 395
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=396
+Value: 396
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=397
+Value: 397
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=398
+Value: 398
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=399
+Value: 399
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=400
+Value: 400
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=401
+Value: 401
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=402
+Value: 402
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=403
+Value: 403
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=404
+Value: 404
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=405
+Value: 405
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=406
+Value: 406
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=407
+Value: 407
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=408
+Value: 408
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=409
+Value: 409
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=410
+Value: 410
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=411
+Value: 411
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=412
+Value: 412
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=413
+Value: 413
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=414
+Value: 414
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=415
+Value: 415
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=416
+Value: 416
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=417
+Value: 417
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=418
+Value: 418
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=419
+Value: 419
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=420
+Value: 420
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=421
+Value: 421
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=422
+Value: 422
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=423
+Value: 423
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=424
+Value: 424
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=425
+Value: 425
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=426
+Value: 426
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=427
+Value: 427
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=428
+Value: 428
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=429
+Value: 429
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=430
+Value: 430
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=431
+Value: 431
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=432
+Value: 432
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=433
+Value: 433
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=434
+Value: 434
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=435
+Value: 435
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=436
+Value: 436
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=437
+Value: 437
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=438
+Value: 438
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=439
+Value: 439
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=440
+Value: 440
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=441
+Value: 441
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=442
+Value: 442
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=443
+Value: 443
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=444
+Value: 444
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=445
+Value: 445
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=446
+Value: 446
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=447
+Value: 447
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=448
+Value: 448
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=449
+Value: 449
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=450
+Value: 450
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=451
+Value: 451
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=452
+Value: 452
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=453
+Value: 453
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=454
+Value: 454
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=455
+Value: 455
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=456
+Value: 456
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=457
+Value: 457
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=458
+Value: 458
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=459
+Value: 459
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=460
+Value: 460
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=461
+Value: 461
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=462
+Value: 462
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=463
+Value: 463
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=464
+Value: 464
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=465
+Value: 465
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=466
+Value: 466
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=467
+Value: 467
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=468
+Value: 468
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=469
+Value: 469
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=470
+Value: 470
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=471
+Value: 471
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=472
+Value: 472
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=473
+Value: 473
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=474
+Value: 474
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=475
+Value: 475
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=476
+Value: 476
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=477
+Value: 477
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=478
+Value: 478
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=479
+Value: 479
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=480
+Value: 480
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=481
+Value: 481
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=482
+Value: 482
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=483
+Value: 483
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=484
+Value: 484
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=485
+Value: 485
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=486
+Value: 486
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=487
+Value: 487
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=488
+Value: 488
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=489
+Value: 489
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=490
+Value: 490
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=491
+Value: 491
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=492
+Value: 492
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=493
+Value: 493
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=494
+Value: 494
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=495
+Value: 495
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=496
+Value: 496
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=497
+Value: 497
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=498
+Value: 498
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=499
+Value: 499
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=500
+Value: 500
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=501
+Value: 501
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=502
+Value: 502
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=503
+Value: 503
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=504
+Value: 504
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=505
+Value: 505
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=506
+Value: 506
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=507
+Value: 507
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=508
+Value: 508
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=509
+Value: 509
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=510
+Value: 510
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=511
+Value: 511
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=512
+Value: 512
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=513
+Value: 513
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=514
+Value: 514
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=515
+Value: 515
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=516
+Value: 516
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=517
+Value: 517
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=518
+Value: 518
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=519
+Value: 519
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=520
+Value: 520
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=521
+Value: 521
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=522
+Value: 522
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=523
+Value: 523
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=524
+Value: 524
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=525
+Value: 525
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=526
+Value: 526
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=527
+Value: 527
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=528
+Value: 528
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=529
+Value: 529
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=530
+Value: 530
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=531
+Value: 531
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=532
+Value: 532
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=533
+Value: 533
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=534
+Value: 534
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=535
+Value: 535
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=536
+Value: 536
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=537
+Value: 537
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=538
+Value: 538
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=539
+Value: 539
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=540
+Value: 540
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=541
+Value: 541
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=542
+Value: 542
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=543
+Value: 543
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=544
+Value: 544
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=545
+Value: 545
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=546
+Value: 546
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=547
+Value: 547
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=548
+Value: 548
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=549
+Value: 549
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=550
+Value: 550
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=551
+Value: 551
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=552
+Value: 552
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=553
+Value: 553
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=554
+Value: 554
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=555
+Value: 555
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=556
+Value: 556
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=557
+Value: 557
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=558
+Value: 558
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=559
+Value: 559
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=560
+Value: 560
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=561
+Value: 561
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=562
+Value: 562
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=563
+Value: 563
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=564
+Value: 564
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=565
+Value: 565
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=566
+Value: 566
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=567
+Value: 567
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=568
+Value: 568
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=569
+Value: 569
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=570
+Value: 570
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=571
+Value: 571
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=572
+Value: 572
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=573
+Value: 573
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=574
+Value: 574
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=575
+Value: 575
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=576
+Value: 576
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=577
+Value: 577
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=578
+Value: 578
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=579
+Value: 579
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=580
+Value: 580
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=581
+Value: 581
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=582
+Value: 582
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=583
+Value: 583
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=584
+Value: 584
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=585
+Value: 585
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=586
+Value: 586
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=587
+Value: 587
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=588
+Value: 588
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=589
+Value: 589
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=590
+Value: 590
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=591
+Value: 591
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=592
+Value: 592
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=593
+Value: 593
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=594
+Value: 594
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=595
+Value: 595
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=596
+Value: 596
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=597
+Value: 597
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=598
+Value: 598
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=599
+Value: 599
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=600
+Value: 600
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=601
+Value: 601
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=602
+Value: 602
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=603
+Value: 603
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=604
+Value: 604
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=605
+Value: 605
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=606
+Value: 606
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=607
+Value: 607
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=608
+Value: 608
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=609
+Value: 609
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=610
+Value: 610
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=611
+Value: 611
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=612
+Value: 612
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=613
+Value: 613
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=614
+Value: 614
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=615
+Value: 615
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=616
+Value: 616
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=617
+Value: 617
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=618
+Value: 618
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=619
+Value: 619
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=620
+Value: 620
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=621
+Value: 621
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=622
+Value: 622
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=623
+Value: 623
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=624
+Value: 624
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=625
+Value: 625
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=626
+Value: 626
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=627
+Value: 627
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=628
+Value: 628
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=629
+Value: 629
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=630
+Value: 630
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=631
+Value: 631
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=632
+Value: 632
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=633
+Value: 633
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=634
+Value: 634
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=635
+Value: 635
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=636
+Value: 636
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=637
+Value: 637
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=638
+Value: 638
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=639
+Value: 639
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=640
+Value: 640
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=641
+Value: 641
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=642
+Value: 642
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=643
+Value: 643
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=644
+Value: 644
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=645
+Value: 645
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=646
+Value: 646
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=647
+Value: 647
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=648
+Value: 648
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=649
+Value: 649
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=650
+Value: 650
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=651
+Value: 651
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=652
+Value: 652
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=653
+Value: 653
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=654
+Value: 654
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=655
+Value: 655
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=656
+Value: 656
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=657
+Value: 657
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=658
+Value: 658
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=659
+Value: 659
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=660
+Value: 660
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=661
+Value: 661
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=662
+Value: 662
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=663
+Value: 663
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=664
+Value: 664
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=665
+Value: 665
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=666
+Value: 666
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=667
+Value: 667
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=668
+Value: 668
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=669
+Value: 669
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=670
+Value: 670
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=671
+Value: 671
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=672
+Value: 672
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=673
+Value: 673
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=674
+Value: 674
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=675
+Value: 675
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=676
+Value: 676
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=677
+Value: 677
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=678
+Value: 678
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=679
+Value: 679
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=680
+Value: 680
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=681
+Value: 681
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=682
+Value: 682
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=683
+Value: 683
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=684
+Value: 684
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=685
+Value: 685
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=686
+Value: 686
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=687
+Value: 687
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=688
+Value: 688
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=689
+Value: 689
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=690
+Value: 690
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=691
+Value: 691
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=692
+Value: 692
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=693
+Value: 693
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=694
+Value: 694
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=695
+Value: 695
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=696
+Value: 696
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=697
+Value: 697
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=698
+Value: 698
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=699
+Value: 699
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=700
+Value: 700
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=701
+Value: 701
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=702
+Value: 702
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=703
+Value: 703
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=704
+Value: 704
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=705
+Value: 705
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=706
+Value: 706
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=707
+Value: 707
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=708
+Value: 708
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=709
+Value: 709
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=710
+Value: 710
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=711
+Value: 711
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=712
+Value: 712
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=713
+Value: 713
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=714
+Value: 714
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=715
+Value: 715
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=716
+Value: 716
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=717
+Value: 717
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=718
+Value: 718
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=719
+Value: 719
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=720
+Value: 720
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=721
+Value: 721
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=722
+Value: 722
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=723
+Value: 723
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=724
+Value: 724
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=725
+Value: 725
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=726
+Value: 726
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=727
+Value: 727
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=728
+Value: 728
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=729
+Value: 729
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=730
+Value: 730
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=731
+Value: 731
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=732
+Value: 732
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=733
+Value: 733
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=734
+Value: 734
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=735
+Value: 735
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=736
+Value: 736
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=737
+Value: 737
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=738
+Value: 738
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=739
+Value: 739
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=740
+Value: 740
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=741
+Value: 741
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=742
+Value: 742
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=743
+Value: 743
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=744
+Value: 744
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=745
+Value: 745
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=746
+Value: 746
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=747
+Value: 747
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=748
+Value: 748
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=749
+Value: 749
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=750
+Value: 750
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=751
+Value: 751
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=752
+Value: 752
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=753
+Value: 753
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=754
+Value: 754
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=755
+Value: 755
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=756
+Value: 756
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=757
+Value: 757
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=758
+Value: 758
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=759
+Value: 759
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=760
+Value: 760
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=761
+Value: 761
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=762
+Value: 762
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=763
+Value: 763
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=764
+Value: 764
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=765
+Value: 765
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=766
+Value: 766
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=767
+Value: 767
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=768
+Value: 768
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=769
+Value: 769
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=770
+Value: 770
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=771
+Value: 771
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=772
+Value: 772
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=773
+Value: 773
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=774
+Value: 774
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=775
+Value: 775
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=776
+Value: 776
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=777
+Value: 777
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=778
+Value: 778
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=779
+Value: 779
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=780
+Value: 780
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=781
+Value: 781
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=782
+Value: 782
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=783
+Value: 783
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=784
+Value: 784
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=785
+Value: 785
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=786
+Value: 786
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=787
+Value: 787
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=788
+Value: 788
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=789
+Value: 789
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=790
+Value: 790
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=791
+Value: 791
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=792
+Value: 792
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=793
+Value: 793
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=794
+Value: 794
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=795
+Value: 795
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=796
+Value: 796
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=797
+Value: 797
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=798
+Value: 798
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=799
+Value: 799
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=800
+Value: 800
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=801
+Value: 801
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=802
+Value: 802
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=803
+Value: 803
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=804
+Value: 804
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=805
+Value: 805
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=806
+Value: 806
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=807
+Value: 807
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=808
+Value: 808
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=809
+Value: 809
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=810
+Value: 810
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=811
+Value: 811
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=812
+Value: 812
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=813
+Value: 813
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=814
+Value: 814
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=815
+Value: 815
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=816
+Value: 816
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=817
+Value: 817
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=818
+Value: 818
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=819
+Value: 819
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=820
+Value: 820
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=821
+Value: 821
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=822
+Value: 822
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=823
+Value: 823
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=824
+Value: 824
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=825
+Value: 825
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=826
+Value: 826
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=827
+Value: 827
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=828
+Value: 828
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=829
+Value: 829
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=830
+Value: 830
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=831
+Value: 831
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=832
+Value: 832
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=833
+Value: 833
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=834
+Value: 834
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=835
+Value: 835
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=836
+Value: 836
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=837
+Value: 837
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=838
+Value: 838
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=839
+Value: 839
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=840
+Value: 840
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=841
+Value: 841
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=842
+Value: 842
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=843
+Value: 843
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=844
+Value: 844
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=845
+Value: 845
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=846
+Value: 846
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=847
+Value: 847
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=848
+Value: 848
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=849
+Value: 849
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=850
+Value: 850
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=851
+Value: 851
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=852
+Value: 852
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=853
+Value: 853
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=854
+Value: 854
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=855
+Value: 855
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=856
+Value: 856
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=857
+Value: 857
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=858
+Value: 858
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=859
+Value: 859
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=860
+Value: 860
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=861
+Value: 861
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=862
+Value: 862
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=863
+Value: 863
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=864
+Value: 864
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=865
+Value: 865
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=866
+Value: 866
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=867
+Value: 867
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=868
+Value: 868
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=869
+Value: 869
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=870
+Value: 870
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=871
+Value: 871
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=872
+Value: 872
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=873
+Value: 873
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=874
+Value: 874
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=875
+Value: 875
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=876
+Value: 876
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=877
+Value: 877
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=878
+Value: 878
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=879
+Value: 879
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=880
+Value: 880
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=881
+Value: 881
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=882
+Value: 882
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=883
+Value: 883
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=884
+Value: 884
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=885
+Value: 885
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=886
+Value: 886
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=887
+Value: 887
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=888
+Value: 888
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=889
+Value: 889
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=890
+Value: 890
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=891
+Value: 891
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=892
+Value: 892
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=893
+Value: 893
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=894
+Value: 894
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=895
+Value: 895
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=896
+Value: 896
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=897
+Value: 897
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=898
+Value: 898
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=899
+Value: 899
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=900
+Value: 900
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=901
+Value: 901
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=902
+Value: 902
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=903
+Value: 903
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=904
+Value: 904
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=905
+Value: 905
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=906
+Value: 906
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=907
+Value: 907
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=908
+Value: 908
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=909
+Value: 909
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=910
+Value: 910
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=911
+Value: 911
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=912
+Value: 912
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=913
+Value: 913
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=914
+Value: 914
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=915
+Value: 915
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=916
+Value: 916
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=917
+Value: 917
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=918
+Value: 918
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=919
+Value: 919
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=920
+Value: 920
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=921
+Value: 921
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=922
+Value: 922
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=923
+Value: 923
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=924
+Value: 924
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=925
+Value: 925
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=926
+Value: 926
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=927
+Value: 927
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=928
+Value: 928
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=929
+Value: 929
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=930
+Value: 930
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=931
+Value: 931
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=932
+Value: 932
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=933
+Value: 933
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=934
+Value: 934
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=935
+Value: 935
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=936
+Value: 936
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=937
+Value: 937
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=938
+Value: 938
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=939
+Value: 939
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=940
+Value: 940
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=941
+Value: 941
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=942
+Value: 942
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=943
+Value: 943
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=944
+Value: 944
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=945
+Value: 945
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=946
+Value: 946
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=947
+Value: 947
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=948
+Value: 948
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=949
+Value: 949
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=950
+Value: 950
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=951
+Value: 951
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=952
+Value: 952
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=953
+Value: 953
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=954
+Value: 954
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=955
+Value: 955
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=956
+Value: 956
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=957
+Value: 957
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=958
+Value: 958
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=959
+Value: 959
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=960
+Value: 960
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=961
+Value: 961
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=962
+Value: 962
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=963
+Value: 963
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=964
+Value: 964
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=965
+Value: 965
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=966
+Value: 966
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=967
+Value: 967
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=968
+Value: 968
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=969
+Value: 969
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=970
+Value: 970
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=971
+Value: 971
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=972
+Value: 972
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=973
+Value: 973
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=974
+Value: 974
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=975
+Value: 975
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=976
+Value: 976
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=977
+Value: 977
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=978
+Value: 978
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=979
+Value: 979
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=980
+Value: 980
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=981
+Value: 981
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=982
+Value: 982
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=983
+Value: 983
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=984
+Value: 984
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=985
+Value: 985
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=986
+Value: 986
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=987
+Value: 987
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=988
+Value: 988
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=989
+Value: 989
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=990
+Value: 990
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=991
+Value: 991
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=992
+Value: 992
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=993
+Value: 993
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=994
+Value: 994
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=995
+Value: 995
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=996
+Value: 996
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=997
+Value: 997
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=998
+Value: 998
+
+C:\Users\zczak\Desktop\S5\ZikoDB>curl http://localhost:8080/get?key=999
+Value: 999
+
+C:\Users\zczak\Desktop\S5\ZikoDB>

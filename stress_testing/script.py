@@ -14,4 +14,5 @@ def dele(key):
 for i in range(1000):
     fl_set.write(set(str(i), str(i)) + "\n")
     fl_get.write(get(str(i)) + "\n")
-    fl_del.write(dele(str(i)) + "\n")
+    if i % 2 == 0:
+        fl_del.write(dele(str(i)) + "\n")

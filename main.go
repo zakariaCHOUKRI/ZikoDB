@@ -6,14 +6,18 @@ import (
 )
 
 func main() {
-
+	// WAL and memtable initialization
 	memtable := NewMemtable()
 	wal, err := NewWAL("data/wal/wal")
 	if err != nil {
 		fmt.Println("Error creating WAL:", err)
 		return
 	}
+
+	// Integrity check of sst files using checksums and
+	// Flushing values present in the wal from previous sessions
 	integrityCheck()
+	wal.flushWAL(memtable)
 
 	// Start the periodic flush goroutine
 	go periodicFlush(memtable)
